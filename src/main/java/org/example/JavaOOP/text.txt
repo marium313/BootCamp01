@@ -1,0 +1,174 @@
+single level
+parent to child
+
+multi level
+parent to child to grand child
+
+hierarchical level
+one parent 2 children..
+
+
+2 parents and 1 child? -- interface relationship not inheritance relationship
+
+1 parent and 2 children and one child
+
+Homework 2 (Due on Monday)
+Assignment Title: School Management System
+
+Description:
+
+Develop a simple School Management System using Java. The system should consist of the following classes:
+
+Person: A base class representing a person with common attributes such as name, age, and address.
+Student: A subclass of person, representing a student with additional attributes like studentID, grade, and coursesTaken.
+Teacher: A subclass of person representing a teacher, with additional attributes like teacherID, subjects, and classroomAssigned.
+School: Represents the school itself, aggregating the Student and Teacher objects.
+
+Implement the Person class with the following methods:
+
+Constructors to initialize person details.
+Getters and setters for all attributes.
+Method to display information about the person.
+Implement the Student class with the following methods:
+
+Constructors to initialize student details.
+Getters and setters for all attributes.
+Method to enroll in a course.
+Method to display courses taken by the student.
+Implement the Teacher class with the following methods:
+
+Constructors to initialize teacher details.
+Getters and setters for all attributes.
+Method to assign a classroom.
+Method to display the subject taught by the teacher.
+Implement the School class with the following methods:
+
+Construct to initialize the school.
+Method to add a student to the school.
+Method to add a teacher to the school.
+Method to display all student in the school.
+Method to display all teachers in the school.
+Method to search for a student by Student ID.
+Method to search for a teacher by Teacher ID.
+Instructions:
+
+Utilize inheritance to represent the relationship between the Student and Teacher classes and the Person class.
+Use aggregation to represent the relationship between the school class and the student and teacher classes.
+Write a simple program in the Main class to demonstrate the functionality of your School Management System.
+You can create objects of School, Student, and Teacher classes, and students and teachers to the school,
+enroll students in courses, assign classrooms to teachers, and display relevant information about students and teachers.
+
+Abstraction and Interface Assignment
+
+**Assignment Title: Virtual Pet Simulation**
+
+**Assignment description:**
+
+In this assignment, you will create a virtual pat simulation where users can adopt and interface with different types of virtual pets.
+your task is to design and implement the necessary classes and interfaces to model the virtual pets and their behaviors.
+
+** Requirements: **
+
+1. **Interface: VirtualPet :**
+  - Define an interface named 'VirtualPet' with the following methods:
+  - void feed() : This method should simulate feeding the virtual pet.
+  - void play(): This method should simulate playing with the virtual pet.
+  - void sleep(): This method should simulate the virtual pet sleeping.
+
+2. **Abstract Class: PetSpecies :**
+  - Create an abstract class named 'PetSpecies' that implements the 'VirtualPet' interface.
+  - Define common attributes such as 'name', 'hunger', 'happiness', and 'energy'.
+  - Implement the 'feed()', 'play()', and 'sleep()' methods with default behaviors that affect the pet's attributes accordingly.
+
+3. **Concrete classes :**
+  - Create concrete classes for at least three different types of virtual pets (e.g., Dog, Cat, Bird).
+  - Each concrete class should extend the 'PetSpecies' class and provide unique behaviors or characteristics for that type of pet.
+
+4. **PetShelter Class :**
+  - Create a 'PetShelter' class to manage the virtual pets.
+  - Implement methods to add pets to the shelter, remove pets from the shelter, and display all the pets in the shelter along
+  with their details (name, species, hunger level, happiness level, energy level).
+
+5. **Main Application :**
+  - Write an application to demonstrate the functionality of your virtual pet simulation.
+  - Create an instance of the 'PetShelter' class and add several virtual pets of different species to the shelter.
+  - Interact with the virtual pets by feeding them, playing with them, and putting them to sleep.
+  - Display all pets in the shelter and their current status.
+
+** Submission Guidelines :**
+
+- Submit your Java source code files (.java) along with any necessary documentation or instructions for running the application.
+- Provide brief explanation of your implementation, highlighting any design choices or assumptions made.
+
+**Additional Notes:**
+
+- Utilize Inheritance and Polymorphism to maximize code reuse and flexibility.
+- Test your application thoroughly to ensure correctness and functionality.
+
+
+ATM Application assignment
+Objective:
+Create an ATM application in Java that incorporates object-oriented Programming (OOP) principles, including encapsulation,
+inheritance, polymorphism, and abstraction.
+
+Requirements:
+Customer Class:
+
+Create a customer class with the following attributes:
+
+Name
+Account Number
+Balance
+PIN number
+Implement appropriate constructors and methods to set and get customer information.
+
+ATM Class:
+
+Implement an ATM class which includes methods for various transactions:
+
+Deposit
+Withdrawal
+Balance inquiry
+Ensure that before performing any transaction, the ATM verifies the customer's PIN.
+
+Encapsulation:
+
+Encapsulate the attributes of the customer class by making them private and providing public getter and setter methods to access and modify them.
+Inheritance:
+
+Implement inheritance if needed, for example, you might have a SavingsAccount class and a CheckingAccount class that inherit from the
+Customer class.
+
+Polymorphism:
+
+Implement polymorphism by creating multiple methods with the same name but different parameters lists, for example deposit()
+and deposit(amount) methods.
+
+Abstraction:
+
+Use abstraction to hide the complexity of internal processes from the user. For example, the ATM class should hide the implementation
+details of how transactions are processed.
+
+Error Handling:
+
+Implement appropriate error handling mechanisms, for instance, handling insufficient balance during withdrawals or invalid PIN input.
+Additional Features (Optional):
+Allow the user to change their PIN.
+Implement security features such as a maximum number of incorrect PIN attempts before locking the account.
+Provide a transaction history feature.
+Implement multi-threading for concurrent transactions.
+
+Submission guidelines:
+
+Create a comprehensive JAVA program that fulfils the requirements mentioned above.
+Include comments to explain the purpose of each class, method, and significant blocks of code.
+
+* // create a customer
+* // select a customer
+* // pin for the customer
+* // deposit, withdraw, check balance, transfer between customers.
+* // ask again if want to do any more transactions.
+* // if not then there should be an option to exit the application.
+ */
+
+
